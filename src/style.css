@@ -8,7 +8,19 @@ img:first-child {
 }
 
 img {
-  width: 100%;
   height: 100%;
+  width: 100%;
   display: none;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }
